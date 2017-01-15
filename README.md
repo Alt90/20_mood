@@ -1,6 +1,10 @@
 # Site for the Mood
 
-[TODO. There will be project description]
+Сайт Выдаёт по одной класной шутке при зажоде на стартовую страницу.
+
+# Пример
+
+Пример сайта расположен по [ссылке](https://alt90@github.io/mood.html)
 
 # Project Goals
 
