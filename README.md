@@ -4,7 +4,7 @@
 
 # Пример
 
-Пример сайта расположен по [ссылке](https://alt90@github.io/mood.html)
+Пример сайта расположен по [ссылке](https://alt90.github.io/mood.html)
 
 # Project Goals
 
