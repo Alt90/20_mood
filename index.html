@@ -4,6 +4,13 @@
 <head>
   <meta charset="utf-8">
   <title>Настроение</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
   <script id="quotes_json" type="application/json">
     [
       {
@@ -53,7 +60,24 @@
   </script>
 </head>
 <body>
-<p id="mood-text"></p>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12 col-md-6 col-md-offset-3">
+            <h3><b>Шутка дня:</b></h3>
+            <div class="panel panel-danger">
+                <div class="panel-body">
+                    <p id="mood-text"></p>
+                </div>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">Это очень неудачная и неуместная шутка!</span>
+                <span class="input-group-btn">
+                    <a class="btn btn-default" href="index.html">Попробуй ещё!</a>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script>
     var quotes_json = JSON.parse($("#quotes_json").html());
